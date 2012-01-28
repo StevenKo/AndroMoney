@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09FEB14814D450B00029BBCA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FEB14714D450B00029BBCA /* UIKit.framework */; };
+		09FEB14A14D450B00029BBCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FEB14914D450B00029BBCA /* Foundation.framework */; };
+		09FEB14C14D450B00029BBCA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FEB14B14D450B00029BBCA /* CoreGraphics.framework */; };
+		09FEB14E14D450B00029BBCA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FEB14D14D450B00029BBCA /* CoreData.framework */; };
+		09FEB15414D450B00029BBCA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09FEB15214D450B00029BBCA /* InfoPlist.strings */; };
+		09FEB15614D450B00029BBCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FEB15514D450B00029BBCA /* main.m */; };
+		09FEB15A14D450B00029BBCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FEB15914D450B00029BBCA /* AppDelegate.m */; };
+		09FEB15D14D450B00029BBCA /* andromoney.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09FEB15B14D450B00029BBCA /* andromoney.xcdatamodeld */; };
+		09FEB16514D450B00029BBCA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FEB16414D450B00029BBCA /* SenTestingKit.framework */; };
+		09FEB16614D450B00029BBCA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FEB14714D450B00029BBCA /* UIKit.framework */; };
+		09FEB16714D450B00029BBCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FEB14914D450B00029BBCA /* Foundation.framework */; };
+		09FEB16814D450B00029BBCA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FEB14D14D450B00029BBCA /* CoreData.framework */; };
+		09FEB17014D450B10029BBCA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09FEB16E14D450B10029BBCA /* InfoPlist.strings */; };
+		09FEB17314D450B10029BBCA /* andromoneyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FEB17214D450B10029BBCA /* andromoneyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09FEB16914D450B10029BBCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09FEB13A14D450B00029BBCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09FEB14214D450B00029BBCA;
+			remoteInfo = andromoney;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09FEB14314D450B00029BBCA /* andromoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = andromoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09FEB14714D450B00029BBCA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		09FEB14914D450B00029BBCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		09FEB14B14D450B00029BBCA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		09FEB14D14D450B00029BBCA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		09FEB15114D450B00029BBCA /* andromoney-Info.plist */ = {isa = PBXFileReference; path = "andromoney-Info.plist"; sourceTree = "<group>"; };
+		09FEB15314D450B00029BBCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		09FEB15514D450B00029BBCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09FEB15714D450B00029BBCA /* andromoney-Prefix.pch */ = {isa = PBXFileReference; path = "andromoney-Prefix.pch"; sourceTree = "<group>"; };
+		09FEB15814D450B00029BBCA /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		09FEB15914D450B00029BBCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		09FEB15C14D450B00029BBCA /* andromoney.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = andromoney.xcdatamodel; sourceTree = "<group>"; };
+		09FEB16314D450B00029BBCA /* andromoneyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = andromoneyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09FEB16414D450B00029BBCA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		09FEB16D14D450B10029BBCA /* andromoneyTests-Info.plist */ = {isa = PBXFileReference; path = "andromoneyTests-Info.plist"; sourceTree = "<group>"; };
+		09FEB16F14D450B10029BBCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		09FEB17114D450B10029BBCA /* andromoneyTests.h */ = {isa = PBXFileReference; path = andromoneyTests.h; sourceTree = "<group>"; };
+		09FEB17214D450B10029BBCA /* andromoneyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = andromoneyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09FEB14014D450B00029BBCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09FEB14814D450B00029BBCA /* UIKit.framework in Frameworks */,
+				09FEB14A14D450B00029BBCA /* Foundation.framework in Frameworks */,
+				09FEB14C14D450B00029BBCA /* CoreGraphics.framework in Frameworks */,
+				09FEB14E14D450B00029BBCA /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09FEB15F14D450B00029BBCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09FEB16514D450B00029BBCA /* SenTestingKit.framework in Frameworks */,
+				09FEB16614D450B00029BBCA /* UIKit.framework in Frameworks */,
+				09FEB16714D450B00029BBCA /* Foundation.framework in Frameworks */,
+				09FEB16814D450B00029BBCA /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09FEB13814D450B00029BBCA = {
+			isa = PBXGroup;
+			children = (
+				09FEB14F14D450B00029BBCA /* andromoney */,
+				09FEB16B14D450B10029BBCA /* andromoneyTests */,
+				09FEB14614D450B00029BBCA /* Frameworks */,
+				09FEB14414D450B00029BBCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09FEB14414D450B00029BBCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09FEB14314D450B00029BBCA /* andromoney.app */,
+				09FEB16314D450B00029BBCA /* andromoneyTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09FEB14614D450B00029BBCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09FEB14714D450B00029BBCA /* UIKit.framework */,
+				09FEB14914D450B00029BBCA /* Foundation.framework */,
+				09FEB14B14D450B00029BBCA /* CoreGraphics.framework */,
+				09FEB14D14D450B00029BBCA /* CoreData.framework */,
+				09FEB16414D450B00029BBCA /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09FEB14F14D450B00029BBCA /* andromoney */ = {
+			isa = PBXGroup;
+			children = (
+				09FEB15814D450B00029BBCA /* AppDelegate.h */,
+				09FEB15914D450B00029BBCA /* AppDelegate.m */,
+				09FEB15B14D450B00029BBCA /* andromoney.xcdatamodeld */,
+				09FEB15014D450B00029BBCA /* Supporting Files */,
+			);
+			path = andromoney;
+			sourceTree = "<group>";
+		};
+		09FEB15014D450B00029BBCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09FEB15114D450B00029BBCA /* andromoney-Info.plist */,
+				09FEB15214D450B00029BBCA /* InfoPlist.strings */,
+				09FEB15514D450B00029BBCA /* main.m */,
+				09FEB15714D450B00029BBCA /* andromoney-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09FEB16B14D450B10029BBCA /* andromoneyTests */ = {
+			isa = PBXGroup;
+			children = (
+				09FEB17114D450B10029BBCA /* andromoneyTests.h */,
+				09FEB17214D450B10029BBCA /* andromoneyTests.m */,
+				09FEB16C14D450B10029BBCA /* Supporting Files */,
+			);
+			path = andromoneyTests;
+			sourceTree = "<group>";
+		};
+		09FEB16C14D450B10029BBCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09FEB16D14D450B10029BBCA /* andromoneyTests-Info.plist */,
+				09FEB16E14D450B10029BBCA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09FEB14214D450B00029BBCA /* andromoney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09FEB17614D450B10029BBCA /* Build configuration list for PBXNativeTarget "andromoney" */;
+			buildPhases = (
+				09FEB13F14D450B00029BBCA /* Sources */,
+				09FEB14014D450B00029BBCA /* Frameworks */,
+				09FEB14114D450B00029BBCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = andromoney;
+			productName = andromoney;
+			productReference = 09FEB14314D450B00029BBCA /* andromoney.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09FEB16214D450B00029BBCA /* andromoneyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09FEB17914D450B10029BBCA /* Build configuration list for PBXNativeTarget "andromoneyTests" */;
+			buildPhases = (
+				09FEB15E14D450B00029BBCA /* Sources */,
+				09FEB15F14D450B00029BBCA /* Frameworks */,
+				09FEB16014D450B00029BBCA /* Resources */,
+				09FEB16114D450B00029BBCA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09FEB16A14D450B10029BBCA /* PBXTargetDependency */,
+			);
+			name = andromoneyTests;
+			productName = andromoneyTests;
+			productReference = 09FEB16314D450B00029BBCA /* andromoneyTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09FEB13A14D450B00029BBCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "chunyuko85@gmail.com";
+			};
+			buildConfigurationList = 09FEB13D14D450B00029BBCA /* Build configuration list for PBXProject "andromoney" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 09FEB13814D450B00029BBCA;
+			productRefGroup = 09FEB14414D450B00029BBCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09FEB14214D450B00029BBCA /* andromoney */,
+				09FEB16214D450B00029BBCA /* andromoneyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09FEB14114D450B00029BBCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09FEB15414D450B00029BBCA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09FEB16014D450B00029BBCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09FEB17014D450B10029BBCA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09FEB16114D450B00029BBCA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09FEB13F14D450B00029BBCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09FEB15614D450B00029BBCA /* main.m in Sources */,
+				09FEB15A14D450B00029BBCA /* AppDelegate.m in Sources */,
+				09FEB15D14D450B00029BBCA /* andromoney.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09FEB15E14D450B00029BBCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09FEB17314D450B10029BBCA /* andromoneyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09FEB16A14D450B10029BBCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09FEB14214D450B00029BBCA /* andromoney */;
+			targetProxy = 09FEB16914D450B10029BBCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09FEB15214D450B00029BBCA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09FEB15314D450B00029BBCA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		09FEB16E14D450B10029BBCA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09FEB16F14D450B10029BBCA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09FEB17414D450B10029BBCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09FEB17514D450B10029BBCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09FEB17714D450B10029BBCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "andromoney/andromoney-Prefix.pch";
+				INFOPLIST_FILE = "andromoney/andromoney-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		09FEB17814D450B10029BBCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "andromoney/andromoney-Prefix.pch";
+				INFOPLIST_FILE = "andromoney/andromoney-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		09FEB17A14D450B10029BBCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/andromoney.app/andromoney";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "andromoney/andromoney-Prefix.pch";
+				INFOPLIST_FILE = "andromoneyTests/andromoneyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		09FEB17B14D450B10029BBCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/andromoney.app/andromoney";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "andromoney/andromoney-Prefix.pch";
+				INFOPLIST_FILE = "andromoneyTests/andromoneyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09FEB13D14D450B00029BBCA /* Build configuration list for PBXProject "andromoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09FEB17414D450B10029BBCA /* Debug */,
+				09FEB17514D450B10029BBCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09FEB17614D450B10029BBCA /* Build configuration list for PBXNativeTarget "andromoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09FEB17714D450B10029BBCA /* Debug */,
+				09FEB17814D450B10029BBCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09FEB17914D450B10029BBCA /* Build configuration list for PBXNativeTarget "andromoneyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09FEB17A14D450B10029BBCA /* Debug */,
+				09FEB17B14D450B10029BBCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		09FEB15B14D450B00029BBCA /* andromoney.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				09FEB15C14D450B00029BBCA /* andromoney.xcdatamodel */,
+			);
+			currentVersion = 09FEB15C14D450B00029BBCA /* andromoney.xcdatamodel */;
+			path = andromoney.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 09FEB13A14D450B00029BBCA /* Project object */;
+}
