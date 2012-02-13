@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0987668114E7D180008949B2 /* MainStroyBorad_iphone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0987668014E7D180008949B2 /* MainStroyBorad_iphone.storyboard */; };
 		09FEB14814D450B00029BBCA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FEB14714D450B00029BBCA /* UIKit.framework */; };
 		09FEB14A14D450B00029BBCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FEB14914D450B00029BBCA /* Foundation.framework */; };
 		09FEB14C14D450B00029BBCA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FEB14B14D450B00029BBCA /* CoreGraphics.framework */; };
@@ -34,23 +35,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0987668014E7D180008949B2 /* MainStroyBorad_iphone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStroyBorad_iphone.storyboard; sourceTree = "<group>"; };
 		09FEB14314D450B00029BBCA /* andromoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = andromoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09FEB14714D450B00029BBCA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		09FEB14914D450B00029BBCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		09FEB14B14D450B00029BBCA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		09FEB14D14D450B00029BBCA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		09FEB15114D450B00029BBCA /* andromoney-Info.plist */ = {isa = PBXFileReference; path = "andromoney-Info.plist"; sourceTree = "<group>"; };
+		09FEB15114D450B00029BBCA /* andromoney-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "andromoney-Info.plist"; sourceTree = "<group>"; };
 		09FEB15314D450B00029BBCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		09FEB15514D450B00029BBCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		09FEB15714D450B00029BBCA /* andromoney-Prefix.pch */ = {isa = PBXFileReference; path = "andromoney-Prefix.pch"; sourceTree = "<group>"; };
-		09FEB15814D450B00029BBCA /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		09FEB15714D450B00029BBCA /* andromoney-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "andromoney-Prefix.pch"; sourceTree = "<group>"; };
+		09FEB15814D450B00029BBCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		09FEB15914D450B00029BBCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		09FEB15C14D450B00029BBCA /* andromoney.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = andromoney.xcdatamodel; sourceTree = "<group>"; };
 		09FEB16314D450B00029BBCA /* andromoneyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = andromoneyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09FEB16414D450B00029BBCA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		09FEB16D14D450B10029BBCA /* andromoneyTests-Info.plist */ = {isa = PBXFileReference; path = "andromoneyTests-Info.plist"; sourceTree = "<group>"; };
+		09FEB16D14D450B10029BBCA /* andromoneyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "andromoneyTests-Info.plist"; sourceTree = "<group>"; };
 		09FEB16F14D450B10029BBCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		09FEB17114D450B10029BBCA /* andromoneyTests.h */ = {isa = PBXFileReference; path = andromoneyTests.h; sourceTree = "<group>"; };
+		09FEB17114D450B10029BBCA /* andromoneyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = andromoneyTests.h; sourceTree = "<group>"; };
 		09FEB17214D450B10029BBCA /* andromoneyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = andromoneyTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +82,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0987672B14E7D882008949B2 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		09FEB13814D450B00029BBCA = {
 			isa = PBXGroup;
 			children = (
@@ -114,10 +123,12 @@
 		09FEB14F14D450B00029BBCA /* andromoney */ = {
 			isa = PBXGroup;
 			children = (
+				0987672B14E7D882008949B2 /* images */,
 				09FEB15814D450B00029BBCA /* AppDelegate.h */,
 				09FEB15914D450B00029BBCA /* AppDelegate.m */,
 				09FEB15B14D450B00029BBCA /* andromoney.xcdatamodeld */,
 				09FEB15014D450B00029BBCA /* Supporting Files */,
+				0987668014E7D180008949B2 /* MainStroyBorad_iphone.storyboard */,
 			);
 			path = andromoney;
 			sourceTree = "<group>";
@@ -224,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09FEB15414D450B00029BBCA /* InfoPlist.strings in Resources */,
+				0987668114E7D180008949B2 /* MainStroyBorad_iphone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +436,7 @@
 				09FEB17814D450B10029BBCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09FEB17914D450B10029BBCA /* Build configuration list for PBXNativeTarget "andromoneyTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +445,7 @@
 				09FEB17B14D450B10029BBCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
